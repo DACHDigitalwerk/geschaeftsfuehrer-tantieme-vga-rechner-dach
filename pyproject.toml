@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tantieme-dach"
+version = "1.0.0"
+description = "DACH GF-Tantieme-, Vergütung- & VGA-Rechner 2026 (Karlsruher Tabelle & § 8 Abs. 3 KStG)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "DACH Digitalwerk", email = "dach.digitalwerk@gmail.com"}
+]
+keywords = [
+    "tantieme",
+    "geschaeftsfuehrer",
+    "vga",
+    "verdeckte-gewinnausschuettung",
+    "karlsruher-tabelle",
+    "kstg",
+    "bfh",
+    "angemessenheit",
+    "fremdvergleich",
+    "fintech",
+    "legaltech",
+    "steuern",
+    "gmbh",
+    "dach",
+    "python",
+    "cli"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Legal Industry",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.scripts]
+dach-tantieme = "tantieme_dach.cli:main"
+
+[project.urls]
+Homepage = "https://dachdigitalwerk.github.io/geschaeftsfuehrer-tantieme-vga-rechner/"
+Documentation = "https://dachdigitalwerk.github.io/geschaeftsfuehrer-gehalt-angemessenheit-tabelle-2026.html"
+Repository = "https://github.com/DACHDigitalwerk/geschaeftsfuehrer-tantieme-vga-rechner-dach"
+Issues = "https://github.com/DACHDigitalwerk/geschaeftsfuehrer-tantieme-vga-rechner-dach/issues"
