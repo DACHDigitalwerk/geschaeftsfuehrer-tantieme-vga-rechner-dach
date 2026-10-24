@@ -54,3 +54,8 @@ Homepage = "https://dachdigitalwerk.github.io/geschaeftsfuehrer-tantieme-vga-rec
 Documentation = "https://dachdigitalwerk.github.io/geschaeftsfuehrer-gehalt-angemessenheit-tabelle-2026.html"
 Repository = "https://github.com/DACHDigitalwerk/geschaeftsfuehrer-tantieme-vga-rechner-dach"
 Issues = "https://github.com/DACHDigitalwerk/geschaeftsfuehrer-tantieme-vga-rechner-dach/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
